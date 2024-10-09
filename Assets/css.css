@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header nav  ul {
+background-color: #333333;
+display: flex;
+height: 5vh;
+justify-content: space-evenly;
+align-items: center;    
+list-style: none;
+
+}
+header a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.textarea {
+     display: flex;
+    justify-content: center;
+    height: 95vh;
+    background-image: url('./img/hero.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textarea h1 {
+    color: aliceblue;
+        background-color: rgb(252 84 75 / 68%);
+        align-self: center;
+    }
+.title-Ab,.title-srv ,.title-spe,
+.title-tech,.title-PL,.title-con {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 29px;
+    margin: 10px;
+}
+.AboutUs {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+        height: 200px;
+        padding: 10px;
+}
+.Specializtions-txt ,.OurService-txt
+,.teachers-txt,.countainer-cards{
+    display: flex;
+   justify-content: space-evenly;
+   text-align: center;
+    padding: 10px;
+margin-bottom: 20px;
+}
+ .Specializtions p,
+ .teachers p {
+     width: 200px;
+ }
+
+
+.AboutUs p {
+    margin: 10px;
+}
+.OurService {
+       background-color: #fcd5bf;
+    padding-top: 40px;
+        margin: 18px auto;
+        height: 250px;
+}
+.teachers{
+     background-color: #fcd5bf;
+       padding-top: 40px;
+       margin: 18px auto;
+       height: 300px;
+}  
+  
+.plans-card {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 10px;
+            margin-bottom: 20px;
+    width: 25%;
+        background-color: #f5deb3;
+    }
+    .teachers img {
+    width: 130px;
+    }
+.plans-card img{
+    height: 120px;
+}
+ .plans-card ul {
+display: flex;
+flex-direction: column;
+    align-items: flex-start;
+        width: 67%;
+        margin: 10px;
+        gap: 3px;
+}
+.detailes {
+width: 180px;
+    background-color: #fde98c;
+    border: 2px solid #ffd200;
+    padding: 13px;
+    margin: 10px;
+}
+.contact-Us{
+        background-color: #fcd5bf;
+            padding-top: 40px;
+}
+.contact-form  form  {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 10px;
+    background-color: #fcd5bf;   
+         width: 100%;
+}
+form label {
+    width: 29%;
+        text-align: left;
+        margin: 4px;
+}
+form input {
+    width: 30%;
+}
+form button {
+    margin: 20px;
+        padding: 10px;
+        width: 17%;
+        border-radius: 6px;
+        color: white;
+        background-color: #333333;
+            cursor: pointer;
+    }
+
+    .contact-info{
+            display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                justify-content: space-evenly;
+                text-align: center;
+                padding: 10px;
+        background-color: #fcd0b9;
+                    height: 200px;
+    }
+    .title-cont{
+        font-size: 45px;
+            text-align: center;
+            margin: 10px;
+    }
+    footer ul{
+        background-color: #333333;
+            display: flex;
+            height: 5vh;
+            justify-content: space-evenly;
+            align-items: center;
+            list-style: none;
+    }
+      footer   a {
+             color: antiquewhite;
+             text-decoration: none;
+         }
